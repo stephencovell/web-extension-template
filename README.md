@@ -8,6 +8,8 @@ Built with **Vite**, **Preact**, **TypeScript**, and **Tailwind CSS v4**.
 
 > **Like this template?** Give it a ⭐ to show your support and help others discover it!
 
+> **Looking for Svelte?** Check out [web-extension-template-svelte](https://github.com/stephencovell/web-extension-template-svelte)
+
 ## Why This Template?
 
 This template powers [WebCheck360](https://chromewebstore.google.com/detail/seo-analysis-audit-webche/ablplooegcieapbedkpmiicblhdinjkh) — a full-featured SEO analysis extension that ships at just **~150KB**. That makes it one of the smallest and fastest extensions in its category.
