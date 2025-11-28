@@ -10,7 +10,7 @@ Built with **Vite**, **Preact**, **TypeScript**, and **Tailwind CSS v4**.
 
 ## Why This Template?
 
-This template powers [WebCheck360](https://chromewebstore.google.com/detail/seo-analysis-audit-webche/ceomgmdmbbnapbhkdklfopnbpamhpeoe) — a full-featured SEO analysis extension that ships at just **~150KB**. That makes it one of the smallest and fastest extensions in its category.
+This template powers [WebCheck360](https://chromewebstore.google.com/detail/seo-analysis-audit-webche/ablplooegcieapbedkpmiicblhdinjkh) — a full-featured SEO analysis extension that ships at just **~150KB**. That makes it one of the smallest and fastest extensions in its category.
 
 If you need a production-ready foundation that stays lean, this is it.
 
@@ -30,7 +30,7 @@ If you need a production-ready foundation that stays lean, this is it.
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/user/web-extension-template.git
+git clone https://github.com/stephencovell/web-extension-template.git
 cd web-extension-template
 pnpm install
 ```
