@@ -1,0 +1,49 @@
+{
+  "name": "web-extension-template",
+  "version": "1.0.0",
+  "description": "Modern browser extension template with Vite, Preact, TypeScript, and Tailwind CSS",
+  "keywords": [
+    "browser-extension",
+    "chrome-extension",
+    "firefox-extension",
+    "manifest-v3",
+    "vite",
+    "preact",
+    "typescript",
+    "tailwindcss",
+    "template",
+    "boilerplate"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-extension.js chrome --dev",
+    "dev:watch": "node scripts/build-extension.js chrome --watch",
+    "dev:firefox": "node scripts/build-extension.js firefox --dev",
+    "dev:firefox:watch": "node scripts/build-extension.js firefox --watch",
+    "build": "node scripts/build-extension.js chrome",
+    "build:firefox": "node scripts/build-extension.js firefox",
+    "build:all": "node scripts/build-extension.js all",
+    "clean": "rm -rf .tmp artifact dist",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-preact": "^0.528.0",
+    "preact": "^10.27.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.2",
+    "@tailwindcss/vite": "^4.1.12",
+    "@types/chrome": "^0.1.4",
+    "@types/node": "^24.3.0",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.4"
+  },
+  "packageManager": "pnpm@10.16.1+sha512.0e155aa2629db8672b49e8475da6226aa4bdea85fdcdfdc15350874946d4f3c91faaf64cbdc4a5d1ab8002f473d5c3fcedcd197989cf0390f9badd3c04678706"
+}

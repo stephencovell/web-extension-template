@@ -1,0 +1,11 @@
+{
+  "name": "my-extension",
+  "extension": {
+    "name": "My Browser Extension",
+    "description": "A browser extension built with Vite, Preact, and Tailwind CSS.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "firefox": {
+      "id": "extension@example.com"
+    }
+  }
+}
