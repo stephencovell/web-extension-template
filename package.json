@@ -14,11 +14,11 @@
     "template",
     "boilerplate"
   ],
-  "author": "",
+  "author": "Stephen Covell <stephen@sledgehammer.dev>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/stephencovell/web-extension-template.git"
   },
   "type": "module",
   "scripts": {
