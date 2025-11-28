@@ -84,25 +84,37 @@ Output: `artifact/my-extension-chrome-v1.0.0.zip`
 ## Project Structure
 
 ```
-├── popup.html              # Extension popup entry
+├── popup.html                 # Extension popup entry
+├── project.json               # Extension config (name, permissions, etc.)
+├── vite.config.ts             # Vite configuration
+├── tsconfig.json              # TypeScript configuration
 ├── src/
-│   ├── popup.tsx           # Popup mount point
-│   ├── background.ts       # Service worker
-│   ├── content.ts          # Content script
-│   ├── tailwind.css        # CSS variables & Tailwind
+│   ├── popup.tsx              # Popup mount point
+│   ├── background.ts          # Service worker
+│   ├── content.ts             # Content script
+│   ├── tailwind.css           # Tailwind + CSS variables
 │   ├── components/
-│   │   ├── Popup.tsx
-│   │   └── ui/             # Button, Card, Input
-│   ├── features/           # Feature components
-│   ├── hooks/              # Custom hooks
-│   ├── types/              # TypeScript types
+│   │   ├── Popup.tsx          # Main popup component
+│   │   └── ui/                # Reusable UI primitives
+│   │       ├── Button.tsx
+│   │       ├── Card.tsx
+│   │       └── Input.tsx
+│   ├── features/
+│   │   └── todo/              # Example feature
+│   │       ├── TodoList.tsx
+│   │       └── TodoItem.tsx
+│   ├── hooks/
+│   │   └── useTodos.ts        # Example custom hook
+│   ├── types/
+│   │   └── todo.ts            # TypeScript types
 │   └── utils/
-│       └── cn.ts           # Class name utility
-├── public/icons/           # Extension icons
+│       └── cn.ts              # Class name utility
+├── public/
+│   └── icons/                 # Extension icons (16, 32, 48, 128px)
 ├── scripts/
-│   └── build-extension.js
-├── project.json            # Extension config
-└── vite.config.ts
+│   └── build-extension.js     # Build script
+└── assets/
+    └── demo.png               # Demo screenshot
 ```
 
 ## Path Aliases
